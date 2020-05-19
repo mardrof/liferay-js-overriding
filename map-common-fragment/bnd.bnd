@@ -1,0 +1,12 @@
+Bundle-Name: map-common-fragment
+Bundle-SymbolicName: map.common.fragment
+Bundle-Version: 1.0.0
+Fragment-Host: com.liferay.map.common;bundle-version="4.0.17"
+-jsp: *.jsp,*.jspf
+-metatype: *
+-plugin.jsp: com.liferay.ant.bnd.jsp.JspAnalyzerPlugin
+-plugin.metatype: com.liferay.ant.bnd.metatype.MetatypePlugin
+-plugin.resourcebundle: com.liferay.ant.bnd.resource.bundle.ResourceBundleLoaderAnalyzerPlugin
+-plugin.sass: com.liferay.ant.bnd.sass.SassAnalyzerPlugin
+-sass: *
+Portal-Bundle-Version: 7.2.1

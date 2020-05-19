@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "metal": "2.16.8",
+    "metal-dom": "2.16.8",
+    "metal-state": "2.16.8"
+  },
+  "name": "map-common",
+  "version": "4.0.17",
+  "description": "",
+  "devDependencies": {
+    "liferay-npm-bridge-generator": "2.18.5",
+    "liferay-npm-scripts": "32.2.0"
+  },
+  "scripts": {
+    "transpile": "babel src/main/resources/META-INF/resources --out-dir target/classes/META-INF/resources",
+    "bridge": "npm run transpile && liferay-npm-bundler && liferay-npm-bridge-generator"
+  },
+  "keywords": [],
+  "author": "Marcin Pawluk",
+  "license": "ISC"
+}
